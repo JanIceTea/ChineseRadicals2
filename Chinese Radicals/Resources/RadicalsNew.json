@@ -1,0 +1,70 @@
+{
+    "chapters": [
+    {
+                 "content": [
+                 {
+                             "radical":{
+                             "short": "亻",
+                             "long": "人"
+                             },
+                             "description": "This is the radical for 人 （rén/person）When it’s used as a radical, it gets squished to become 亻",
+                             "words": [
+                             {
+                                       "radical": {
+                                       "short": "",
+                                       "long": "门"
+                                       },
+                                       "description": "亻+门=们 (men/people)\n他们 (tāmen/they)\n我们 (women/us)"
+                             }
+                             ]
+                 },
+                 {
+                     "radical":{
+                         "short": "忄",
+                         "long": "心"
+                     },
+                     "description": "This is the radical for 心 (xīn/heart). When it gets squished, it looks like 忄",
+                     "words": [
+                         {
+                             "radical": {
+                                 "short": "",
+                                 "long": "白"
+                             },
+                             "description": "忄+白=怕 (pà/fear)"
+                         },
+                         {
+                             "radical": {
+                                 "short": "",
+                                 "long": "亡"
+                             },
+                             "description": "sometimes, 心 keeps its basic form and goes UNDER a character instead of to the left of a character. 亡 + 心= 忘 (wàng/forget)"
+                         }
+                     ]
+                 },
+                 {
+                     "radical":{
+                         "short": "饣",
+                         "long": "食"
+                     },
+                     "description": "This is our favorite radical! It is called the shí radical, and means food! It is written on the left side of a character when used as a radical.the饣radical is a simplified version of 食。\n食品 (shípîn/foodstuff, provisions) is a compound word. 食 is not used as a radical.",
+                     "words": [
+                         {
+                             "radical": {
+                                 "short": "",
+                                 "long": "我 "
+                             },
+                             "description": "饣+我 (wô/I)= 饿 (è/hungry)"
+                         },
+                         {
+                             "radical": {
+                                 "short": "",
+                                 "long": "交"
+                             },
+                             "description": "饣+交 (jiāo/hand in or over, pay)=饺 (jiâo/dumpling) hand over my dumpling!"
+                         }
+                     ]
+                 }
+                 ]
+    }
+    ]
+}

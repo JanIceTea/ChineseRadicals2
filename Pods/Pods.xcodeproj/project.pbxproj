@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0268FD8D6875AD32D8F3D7E85D9762B2 /* Pods-Chinese Radicals-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 946D83298E30BA75FAF860701471E934 /* Pods-Chinese Radicals-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AE5990C2016E838663734432B236F99 /* TagCellLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF188CF3389D57DBEBD310660EC88192 /* TagCellLayout-dummy.m */; };
+		0CD7600890AFC90133224AA720246A6E /* Pods-Chinese Radicals-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CF91339C4FA35CC8BBE188DFCE4C75 /* Pods-Chinese Radicals-dummy.m */; };
+		0EAAABB7CA4446C4A0DE8F52EAAF51ED /* LayoutInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3AC9AE37C216D998E6A1D35AFED1C /* LayoutInfo.swift */; };
+		5218D7F178D5988A58DEEAAAE4A54C82 /* TagCellLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8F1DC6928EFE262E4B235A1B912B09 /* TagCellLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668315E4EDBF1D325A617AA94A43DFB0 /* TagCellLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF805A90AF489EDE2C7ABC3BFD32DBE /* TagCellLayoutDelegate.swift */; };
+		6FC914309269A100D222BBF7265F16F2 /* LayoutAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A68EC41B6F8FDD730F22A9B141E7E6 /* LayoutAlignment.swift */; };
+		7C7B78B853EAAB3DD376EEF0ED565FA2 /* TagCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770640FF6435E7F6C31368C982D5BA8D /* TagCellLayout.swift */; };
+		B30D75F39CB9B066501713FFBDA7E416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		C8C42FE85479258E4B9B8AE54044CF42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		283E59003F1335FCBBEC6F7086B291A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09B54E1E7CEF867DCA4533094D79092E;
+			remoteInfo = TagCellLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF8AC2BD8E29051651E4EAEF2875391 /* TagCellLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TagCellLayout.framework; path = TagCellLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BD34CAF9B4332F5F8CD6972E635D081 /* Pods-Chinese Radicals-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chinese Radicals-resources.sh"; sourceTree = "<group>"; };
+		213494ADFFA704BE90AB45B3F6864BE0 /* Pods-Chinese Radicals-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Chinese Radicals-frameworks.sh"; sourceTree = "<group>"; };
+		248ECBCD159327340888663DB4890FD6 /* Pods-Chinese Radicals.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Chinese Radicals.modulemap"; sourceTree = "<group>"; };
+		2DD88D2723DFA0CA3D24C76E68A595A4 /* Pods-Chinese Radicals-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Chinese Radicals-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EF805A90AF489EDE2C7ABC3BFD32DBE /* TagCellLayoutDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagCellLayoutDelegate.swift; path = Source/TagCellLayoutDelegate.swift; sourceTree = "<group>"; };
+		2F8F1DC6928EFE262E4B235A1B912B09 /* TagCellLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TagCellLayout-umbrella.h"; sourceTree = "<group>"; };
+		357B39F24574C425BDECFAC547702F3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3702D2F5B44111362F78CB84ACEC49CD /* Pods-Chinese Radicals-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Chinese Radicals-acknowledgements.plist"; sourceTree = "<group>"; };
+		587E1270DCE7C24B06424A366412C5FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71BD68718703BD2376898682CF969AED /* TagCellLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TagCellLayout.modulemap; sourceTree = "<group>"; };
+		770640FF6435E7F6C31368C982D5BA8D /* TagCellLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagCellLayout.swift; path = Source/TagCellLayout.swift; sourceTree = "<group>"; };
+		91E3FF43CD44780A42709A3EBA071275 /* Pods_Chinese_Radicals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Chinese_Radicals.framework; path = "Pods-Chinese Radicals.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946D83298E30BA75FAF860701471E934 /* Pods-Chinese Radicals-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Chinese Radicals-umbrella.h"; sourceTree = "<group>"; };
+		95E3AC9AE37C216D998E6A1D35AFED1C /* LayoutInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutInfo.swift; path = Source/LayoutInfo.swift; sourceTree = "<group>"; };
+		967CA4F85E5467E0F4147C9D1374FBB0 /* TagCellLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TagCellLayout.xcconfig; sourceTree = "<group>"; };
+		9EDB2124CC6A84A7EBB12708479CCDC7 /* Pods-Chinese Radicals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chinese Radicals.debug.xcconfig"; sourceTree = "<group>"; };
+		BA281A53651DA7AD883008A8D8B7D9B9 /* Pods-Chinese Radicals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Chinese Radicals.release.xcconfig"; sourceTree = "<group>"; };
+		BAC58F58F24045A8FF2A78F402EF8D1D /* TagCellLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TagCellLayout-prefix.pch"; sourceTree = "<group>"; };
+		E1CF91339C4FA35CC8BBE188DFCE4C75 /* Pods-Chinese Radicals-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Chinese Radicals-dummy.m"; sourceTree = "<group>"; };
+		EF188CF3389D57DBEBD310660EC88192 /* TagCellLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TagCellLayout-dummy.m"; sourceTree = "<group>"; };
+		F7A68EC41B6F8FDD730F22A9B141E7E6 /* LayoutAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAlignment.swift; path = Source/LayoutAlignment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CE6B418AE9B46539CA8D8FB5EEF5F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C42FE85479258E4B9B8AE54044CF42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9C469143F9F841C3995FD36E1AEB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30D75F39CB9B066501713FFBDA7E416 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D2FC7E7BF39B89AAADEA989744AE45B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				587E1270DCE7C24B06424A366412C5FF /* Info.plist */,
+				71BD68718703BD2376898682CF969AED /* TagCellLayout.modulemap */,
+				967CA4F85E5467E0F4147C9D1374FBB0 /* TagCellLayout.xcconfig */,
+				EF188CF3389D57DBEBD310660EC88192 /* TagCellLayout-dummy.m */,
+				BAC58F58F24045A8FF2A78F402EF8D1D /* TagCellLayout-prefix.pch */,
+				2F8F1DC6928EFE262E4B235A1B912B09 /* TagCellLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TagCellLayout";
+			sourceTree = "<group>";
+		};
+		18E284FBFD5C7FFB2F0CD9CC93F89980 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91E3FF43CD44780A42709A3EBA071275 /* Pods_Chinese_Radicals.framework */,
+				0CF8AC2BD8E29051651E4EAEF2875391 /* TagCellLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5916D4BF71D3E7AF4BD34D31BD409B4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77E6C115CEBFF9A424DA733C9E0F53D /* Pods-Chinese Radicals */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		70B4291BD68D15988914061A12248605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3E3BBD81E9B5A23E54739D08E6E1624 /* TagCellLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				70B4291BD68D15988914061A12248605 /* Pods */,
+				18E284FBFD5C7FFB2F0CD9CC93F89980 /* Products */,
+				5916D4BF71D3E7AF4BD34D31BD409B4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3E3BBD81E9B5A23E54739D08E6E1624 /* TagCellLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F7A68EC41B6F8FDD730F22A9B141E7E6 /* LayoutAlignment.swift */,
+				95E3AC9AE37C216D998E6A1D35AFED1C /* LayoutInfo.swift */,
+				770640FF6435E7F6C31368C982D5BA8D /* TagCellLayout.swift */,
+				2EF805A90AF489EDE2C7ABC3BFD32DBE /* TagCellLayoutDelegate.swift */,
+				0D2FC7E7BF39B89AAADEA989744AE45B /* Support Files */,
+			);
+			name = TagCellLayout;
+			path = TagCellLayout;
+			sourceTree = "<group>";
+		};
+		C77E6C115CEBFF9A424DA733C9E0F53D /* Pods-Chinese Radicals */ = {
+			isa = PBXGroup;
+			children = (
+				357B39F24574C425BDECFAC547702F3A /* Info.plist */,
+				248ECBCD159327340888663DB4890FD6 /* Pods-Chinese Radicals.modulemap */,
+				2DD88D2723DFA0CA3D24C76E68A595A4 /* Pods-Chinese Radicals-acknowledgements.markdown */,
+				3702D2F5B44111362F78CB84ACEC49CD /* Pods-Chinese Radicals-acknowledgements.plist */,
+				E1CF91339C4FA35CC8BBE188DFCE4C75 /* Pods-Chinese Radicals-dummy.m */,
+				213494ADFFA704BE90AB45B3F6864BE0 /* Pods-Chinese Radicals-frameworks.sh */,
+				1BD34CAF9B4332F5F8CD6972E635D081 /* Pods-Chinese Radicals-resources.sh */,
+				946D83298E30BA75FAF860701471E934 /* Pods-Chinese Radicals-umbrella.h */,
+				9EDB2124CC6A84A7EBB12708479CCDC7 /* Pods-Chinese Radicals.debug.xcconfig */,
+				BA281A53651DA7AD883008A8D8B7D9B9 /* Pods-Chinese Radicals.release.xcconfig */,
+			);
+			name = "Pods-Chinese Radicals";
+			path = "Target Support Files/Pods-Chinese Radicals";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6E9CE1FA2A1F4A1B4420912FB12C3AFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5218D7F178D5988A58DEEAAAE4A54C82 /* TagCellLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE771BE9FF57D3F31C125EA5933754C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0268FD8D6875AD32D8F3D7E85D9762B2 /* Pods-Chinese Radicals-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09B54E1E7CEF867DCA4533094D79092E /* TagCellLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58BD74485DFE6DCCF632FFA6060C3EDF /* Build configuration list for PBXNativeTarget "TagCellLayout" */;
+			buildPhases = (
+				5BD030FA80FEE909CCB9F6D3AB1D871A /* Sources */,
+				9D9C469143F9F841C3995FD36E1AEB8A /* Frameworks */,
+				6E9CE1FA2A1F4A1B4420912FB12C3AFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagCellLayout;
+			productName = TagCellLayout;
+			productReference = 0CF8AC2BD8E29051651E4EAEF2875391 /* TagCellLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D6F95407A589B52A2C069A479265CCC /* Pods-Chinese Radicals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4FA73A862D08DD882E3AC9D629804B /* Build configuration list for PBXNativeTarget "Pods-Chinese Radicals" */;
+			buildPhases = (
+				C4E4843B21D688F8CA980C1C6570A483 /* Sources */,
+				9CE6B418AE9B46539CA8D8FB5EEF5F3C /* Frameworks */,
+				EE771BE9FF57D3F31C125EA5933754C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73A8AEE594F0783F1C9E61321667C3F9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Chinese Radicals";
+			productName = "Pods-Chinese Radicals";
+			productReference = 91E3FF43CD44780A42709A3EBA071275 /* Pods_Chinese_Radicals.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 18E284FBFD5C7FFB2F0CD9CC93F89980 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D6F95407A589B52A2C069A479265CCC /* Pods-Chinese Radicals */,
+				09B54E1E7CEF867DCA4533094D79092E /* TagCellLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BD030FA80FEE909CCB9F6D3AB1D871A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC914309269A100D222BBF7265F16F2 /* LayoutAlignment.swift in Sources */,
+				0EAAABB7CA4446C4A0DE8F52EAAF51ED /* LayoutInfo.swift in Sources */,
+				0AE5990C2016E838663734432B236F99 /* TagCellLayout-dummy.m in Sources */,
+				7C7B78B853EAAB3DD376EEF0ED565FA2 /* TagCellLayout.swift in Sources */,
+				668315E4EDBF1D325A617AA94A43DFB0 /* TagCellLayoutDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E4843B21D688F8CA980C1C6570A483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD7600890AFC90133224AA720246A6E /* Pods-Chinese Radicals-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73A8AEE594F0783F1C9E61321667C3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TagCellLayout;
+			target = 09B54E1E7CEF867DCA4533094D79092E /* TagCellLayout */;
+			targetProxy = 283E59003F1335FCBBEC6F7086B291A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		085677DFE2E0A070DE170DA11B04D1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EDB2124CC6A84A7EBB12708479CCDC7 /* Pods-Chinese Radicals.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Chinese Radicals/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chinese Radicals/Pods-Chinese Radicals.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Chinese_Radicals;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B37EF2101FE781F875923B1F6E95D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967CA4F85E5467E0F4147C9D1374FBB0 /* TagCellLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TagCellLayout/TagCellLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TagCellLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TagCellLayout/TagCellLayout.modulemap";
+				PRODUCT_NAME = TagCellLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CFE71C8ACF89600BEC9CDAC11374AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967CA4F85E5467E0F4147C9D1374FBB0 /* TagCellLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TagCellLayout/TagCellLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TagCellLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TagCellLayout/TagCellLayout.modulemap";
+				PRODUCT_NAME = TagCellLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		928E90E918AFA150ABEA399044B0501B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA281A53651DA7AD883008A8D8B7D9B9 /* Pods-Chinese Radicals.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Chinese Radicals/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Chinese Radicals/Pods-Chinese Radicals.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Chinese_Radicals;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCF405426857C065123D950465A8AEFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF405426857C065123D950465A8AEFA /* Debug */,
+				00A06BEB3987B2117D563D0D7CF7ACC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58BD74485DFE6DCCF632FFA6060C3EDF /* Build configuration list for PBXNativeTarget "TagCellLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B37EF2101FE781F875923B1F6E95D33 /* Debug */,
+				7CFE71C8ACF89600BEC9CDAC11374AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4FA73A862D08DD882E3AC9D629804B /* Build configuration list for PBXNativeTarget "Pods-Chinese Radicals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085677DFE2E0A070DE170DA11B04D1F7 /* Debug */,
+				928E90E918AFA150ABEA399044B0501B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

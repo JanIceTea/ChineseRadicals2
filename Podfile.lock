@@ -1,0 +1,21 @@
+PODS:
+  - TagCellLayout (1.0)
+
+DEPENDENCIES:
+  - TagCellLayout (from `https://github.com/riteshhgupta/TagCellLayout.git`)
+
+EXTERNAL SOURCES:
+  TagCellLayout:
+    :git: https://github.com/riteshhgupta/TagCellLayout.git
+
+CHECKOUT OPTIONS:
+  TagCellLayout:
+    :commit: c8a143743b0761606fd36872808ea239c0215a60
+    :git: https://github.com/riteshhgupta/TagCellLayout.git
+
+SPEC CHECKSUMS:
+  TagCellLayout: 2a6e3f022bb85a5fe8ccc71762d2e8ab1bbfd8a3
+
+PODFILE CHECKSUM: 27fe7ae62899727b5de5019637be8f091d70034a
+
+COCOAPODS: 1.4.0

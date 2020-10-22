@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D49DB7B2170DD85002F3685 /* OverViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D49DB7A2170DD85002F3685 /* OverViewViewController.xib */; };
+		3D7D276021708118002A333D /* Radicals.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D7D275F21708118002A333D /* Radicals.json */; };
+		3D7D27622170831B002A333D /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D27612170831B002A333D /* DataModels.swift */; };
+		3D7D27642170840D002A333D /* OverViewWorkerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D27632170840D002A333D /* OverViewWorkerTest.swift */; };
+		3D7D27672170990E002A333D /* OverViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D27662170990E002A333D /* OverViewCollectionViewCell.swift */; };
+		3D7D27692170AA69002A333D /* OverViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7D27682170AA69002A333D /* OverViewCollectionViewCell.xib */; };
+		3D7D27712170ADB9002A333D /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D276B2170ADB9002A333D /* DetailPresenter.swift */; };
+		3D7D27722170ADB9002A333D /* DetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D276C2170ADB9002A333D /* DetailWorker.swift */; };
+		3D7D27732170ADB9002A333D /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D276D2170ADB9002A333D /* DetailRouter.swift */; };
+		3D7D27742170ADB9002A333D /* DetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D276E2170ADB9002A333D /* DetailModels.swift */; };
+		3D7D27752170ADB9002A333D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D276F2170ADB9002A333D /* DetailViewController.swift */; };
+		3D7D27762170ADB9002A333D /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7D27702170ADB9002A333D /* DetailInteractor.swift */; };
+		3D7D27782170AE43002A333D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7D27772170AE43002A333D /* DetailViewController.xib */; };
+		3DA6E5B82169FDE300F85A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6E5B72169FDE300F85A37 /* AppDelegate.swift */; };
+		3DA6E5BF2169FDE400F85A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6E5BE2169FDE400F85A37 /* Assets.xcassets */; };
+		3DA6E5C22169FDE400F85A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6E5C02169FDE400F85A37 /* LaunchScreen.storyboard */; };
+		3DA6E5CD2169FDE400F85A37 /* Chinese_RadicalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6E5CC2169FDE400F85A37 /* Chinese_RadicalsTests.swift */; };
+		3DA6E5D82169FDE400F85A37 /* Chinese_RadicalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6E5D72169FDE400F85A37 /* Chinese_RadicalsUITests.swift */; };
+		3DA6E5EC216A01F400F85A37 /* OverViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6E5E6216A01F400F85A37 /* OverViewPresenter.swift */; };
+		3DA6E5ED216A01F400F85A37 /* OverViewWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6E5E7216A01F400F85A37 /* OverViewWorker.swift */; };
+		3DA6E5EE216A01F400F85A37 /* OverViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6E5E8216A01F400F85A37 /* OverViewRouter.swift */; };
+		3DA6E5EF216A01F400F85A37 /* OverViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6E5E9216A01F400F85A37 /* OverViewModels.swift */; };
+		3DA6E5F0216A01F400F85A37 /* OverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6E5EA216A01F400F85A37 /* OverViewViewController.swift */; };
+		3DA6E5F1216A01F400F85A37 /* OverViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6E5EB216A01F400F85A37 /* OverViewInteractor.swift */; };
+		3DC9D6DE2173955E00C82548 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC9D6DD2173955E00C82548 /* IntroViewController.xib */; };
+		3DC9D6E02173956C00C82548 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9D6DF2173956C00C82548 /* IntroViewController.swift */; };
+		3DCAD9642541ACE600D3983E /* DetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCAD9632541ACE600D3983E /* DetailInteractorTests.swift */; };
+		3DCAD9702541AF8A00D3983E /* RadicalsNew.json in Resources */ = {isa = PBXBuildFile; fileRef = 3DCAD96F2541AF8A00D3983E /* RadicalsNew.json */; };
+		773DF0D8B234F3F71C74B2B1 /* Pods_Chinese_Radicals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73F04736A6573324EE7CB61 /* Pods_Chinese_Radicals.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA6E5C92169FDE400F85A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA6E5AC2169FDE300F85A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA6E5B32169FDE300F85A37;
+			remoteInfo = "Chinese Radicals";
+		};
+		3DA6E5D42169FDE400F85A37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA6E5AC2169FDE300F85A37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA6E5B32169FDE300F85A37;
+			remoteInfo = "Chinese Radicals";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D49DB7A2170DD85002F3685 /* OverViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverViewViewController.xib; sourceTree = "<group>"; };
+		3D7D275F21708118002A333D /* Radicals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Radicals.json; sourceTree = "<group>"; };
+		3D7D27612170831B002A333D /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		3D7D27632170840D002A333D /* OverViewWorkerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewWorkerTest.swift; sourceTree = "<group>"; };
+		3D7D27662170990E002A333D /* OverViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D7D27682170AA69002A333D /* OverViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		3D7D276B2170ADB9002A333D /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		3D7D276C2170ADB9002A333D /* DetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWorker.swift; sourceTree = "<group>"; };
+		3D7D276D2170ADB9002A333D /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		3D7D276E2170ADB9002A333D /* DetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModels.swift; sourceTree = "<group>"; };
+		3D7D276F2170ADB9002A333D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3D7D27702170ADB9002A333D /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		3D7D27772170AE43002A333D /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		3DA6E5B42169FDE300F85A37 /* Chinese Radicals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chinese Radicals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA6E5B72169FDE300F85A37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DA6E5BE2169FDE400F85A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DA6E5C12169FDE400F85A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DA6E5C32169FDE400F85A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA6E5C82169FDE400F85A37 /* Chinese RadicalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chinese RadicalsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA6E5CC2169FDE400F85A37 /* Chinese_RadicalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinese_RadicalsTests.swift; sourceTree = "<group>"; };
+		3DA6E5CE2169FDE400F85A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA6E5D32169FDE400F85A37 /* Chinese RadicalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chinese RadicalsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA6E5D72169FDE400F85A37 /* Chinese_RadicalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinese_RadicalsUITests.swift; sourceTree = "<group>"; };
+		3DA6E5D92169FDE400F85A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DA6E5E6216A01F400F85A37 /* OverViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewPresenter.swift; sourceTree = "<group>"; };
+		3DA6E5E7216A01F400F85A37 /* OverViewWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewWorker.swift; sourceTree = "<group>"; };
+		3DA6E5E8216A01F400F85A37 /* OverViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewRouter.swift; sourceTree = "<group>"; };
+		3DA6E5E9216A01F400F85A37 /* OverViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewModels.swift; sourceTree = "<group>"; };
+		3DA6E5EA216A01F400F85A37 /* OverViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewViewController.swift; sourceTree = "<group>"; };
+		3DA6E5EB216A01F400F85A37 /* OverViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverViewInteractor.swift; sourceTree = "<group>"; };
+		3DC9D6DD2173955E00C82548 /* IntroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		3DC9D6DF2173956C00C82548 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		3DCAD9632541ACE600D3983E /* DetailInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractorTests.swift; sourceTree = "<group>"; };
+		3DCAD96F2541AF8A00D3983E /* RadicalsNew.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RadicalsNew.json; sourceTree = "<group>"; };
+		A73F04736A6573324EE7CB61 /* Pods_Chinese_Radicals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chinese_Radicals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B764BAC42EE91F379AB4473F /* Pods-Chinese Radicals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chinese Radicals.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chinese Radicals/Pods-Chinese Radicals.release.xcconfig"; sourceTree = "<group>"; };
+		FEB7E8DA3CF27F247C52FEAC /* Pods-Chinese Radicals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chinese Radicals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chinese Radicals/Pods-Chinese Radicals.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA6E5B12169FDE300F85A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773DF0D8B234F3F71C74B2B1 /* Pods_Chinese_Radicals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6E5C52169FDE400F85A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6E5D02169FDE400F85A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C739AEF3DC3A3AC0D611282 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEB7E8DA3CF27F247C52FEAC /* Pods-Chinese Radicals.debug.xcconfig */,
+				B764BAC42EE91F379AB4473F /* Pods-Chinese Radicals.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D7D275E21708103002A333D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAD96F2541AF8A00D3983E /* RadicalsNew.json */,
+				3D7D275F21708118002A333D /* Radicals.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D7D276521709901002A333D /* OverViewCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3D7D27662170990E002A333D /* OverViewCollectionViewCell.swift */,
+				3D7D27682170AA69002A333D /* OverViewCollectionViewCell.xib */,
+			);
+			path = OverViewCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		3D7D276A2170AC1C002A333D /* DetailScene */ = {
+			isa = PBXGroup;
+			children = (
+				3D7D276B2170ADB9002A333D /* DetailPresenter.swift */,
+				3D7D276C2170ADB9002A333D /* DetailWorker.swift */,
+				3D7D276D2170ADB9002A333D /* DetailRouter.swift */,
+				3D7D276E2170ADB9002A333D /* DetailModels.swift */,
+				3D7D276F2170ADB9002A333D /* DetailViewController.swift */,
+				3D7D27702170ADB9002A333D /* DetailInteractor.swift */,
+				3D7D27772170AE43002A333D /* DetailViewController.xib */,
+			);
+			path = DetailScene;
+			sourceTree = "<group>";
+		};
+		3DA6E5AB2169FDE300F85A37 = {
+			isa = PBXGroup;
+			children = (
+				3DA6E5B62169FDE300F85A37 /* Chinese Radicals */,
+				3DA6E5CB2169FDE400F85A37 /* Chinese RadicalsTests */,
+				3DA6E5D62169FDE400F85A37 /* Chinese RadicalsUITests */,
+				3DA6E5B52169FDE300F85A37 /* Products */,
+				2C739AEF3DC3A3AC0D611282 /* Pods */,
+				CEAD709CD2F29C884E553EBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA6E5B52169FDE300F85A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA6E5B42169FDE300F85A37 /* Chinese Radicals.app */,
+				3DA6E5C82169FDE400F85A37 /* Chinese RadicalsTests.xctest */,
+				3DA6E5D32169FDE400F85A37 /* Chinese RadicalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA6E5B62169FDE300F85A37 /* Chinese Radicals */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9D6DC2173955100C82548 /* IntroViewController */,
+				3D7D276A2170AC1C002A333D /* DetailScene */,
+				3D7D275E21708103002A333D /* Resources */,
+				3DA6E5E5216A01CF00F85A37 /* OverView */,
+				3DA6E5B72169FDE300F85A37 /* AppDelegate.swift */,
+				3DA6E5BE2169FDE400F85A37 /* Assets.xcassets */,
+				3DA6E5C02169FDE400F85A37 /* LaunchScreen.storyboard */,
+				3DA6E5C32169FDE400F85A37 /* Info.plist */,
+			);
+			path = "Chinese Radicals";
+			sourceTree = "<group>";
+		};
+		3DA6E5CB2169FDE400F85A37 /* Chinese RadicalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAD96B2541AD3300D3983E /* OverView */,
+				3DCAD9622541ACB400D3983E /* DetailScene */,
+				3DA6E5CC2169FDE400F85A37 /* Chinese_RadicalsTests.swift */,
+				3DA6E5CE2169FDE400F85A37 /* Info.plist */,
+			);
+			path = "Chinese RadicalsTests";
+			sourceTree = "<group>";
+		};
+		3DA6E5D62169FDE400F85A37 /* Chinese RadicalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA6E5D72169FDE400F85A37 /* Chinese_RadicalsUITests.swift */,
+				3DA6E5D92169FDE400F85A37 /* Info.plist */,
+			);
+			path = "Chinese RadicalsUITests";
+			sourceTree = "<group>";
+		};
+		3DA6E5E5216A01CF00F85A37 /* OverView */ = {
+			isa = PBXGroup;
+			children = (
+				3D7D276521709901002A333D /* OverViewCollectionViewCell */,
+				3DA6E5E6216A01F400F85A37 /* OverViewPresenter.swift */,
+				3DA6E5E7216A01F400F85A37 /* OverViewWorker.swift */,
+				3DA6E5E8216A01F400F85A37 /* OverViewRouter.swift */,
+				3DA6E5E9216A01F400F85A37 /* OverViewModels.swift */,
+				3DA6E5EA216A01F400F85A37 /* OverViewViewController.swift */,
+				3DA6E5EB216A01F400F85A37 /* OverViewInteractor.swift */,
+				3D7D27612170831B002A333D /* DataModels.swift */,
+				3D49DB7A2170DD85002F3685 /* OverViewViewController.xib */,
+			);
+			path = OverView;
+			sourceTree = "<group>";
+		};
+		3DC9D6DC2173955100C82548 /* IntroViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3DC9D6DD2173955E00C82548 /* IntroViewController.xib */,
+				3DC9D6DF2173956C00C82548 /* IntroViewController.swift */,
+			);
+			path = IntroViewController;
+			sourceTree = "<group>";
+		};
+		3DCAD9622541ACB400D3983E /* DetailScene */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAD9632541ACE600D3983E /* DetailInteractorTests.swift */,
+			);
+			path = DetailScene;
+			sourceTree = "<group>";
+		};
+		3DCAD96B2541AD3300D3983E /* OverView */ = {
+			isa = PBXGroup;
+			children = (
+				3D7D27632170840D002A333D /* OverViewWorkerTest.swift */,
+			);
+			path = OverView;
+			sourceTree = "<group>";
+		};
+		CEAD709CD2F29C884E553EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A73F04736A6573324EE7CB61 /* Pods_Chinese_Radicals.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA6E5B32169FDE300F85A37 /* Chinese Radicals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA6E5DC2169FDE400F85A37 /* Build configuration list for PBXNativeTarget "Chinese Radicals" */;
+			buildPhases = (
+				C20D512148F544ADA6EAA619 /* [CP] Check Pods Manifest.lock */,
+				3DA6E5B02169FDE300F85A37 /* Sources */,
+				3DA6E5B12169FDE300F85A37 /* Frameworks */,
+				3DA6E5B22169FDE300F85A37 /* Resources */,
+				D6AB1007B631FC0450A472B8 /* [CP] Embed Pods Frameworks */,
+				D4FA18F46D2FEF9F67F8ACEA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chinese Radicals";
+			productName = "Chinese Radicals";
+			productReference = 3DA6E5B42169FDE300F85A37 /* Chinese Radicals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DA6E5C72169FDE400F85A37 /* Chinese RadicalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA6E5DF2169FDE400F85A37 /* Build configuration list for PBXNativeTarget "Chinese RadicalsTests" */;
+			buildPhases = (
+				3DA6E5C42169FDE400F85A37 /* Sources */,
+				3DA6E5C52169FDE400F85A37 /* Frameworks */,
+				3DA6E5C62169FDE400F85A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA6E5CA2169FDE400F85A37 /* PBXTargetDependency */,
+			);
+			name = "Chinese RadicalsTests";
+			productName = "Chinese RadicalsTests";
+			productReference = 3DA6E5C82169FDE400F85A37 /* Chinese RadicalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DA6E5D22169FDE400F85A37 /* Chinese RadicalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA6E5E22169FDE400F85A37 /* Build configuration list for PBXNativeTarget "Chinese RadicalsUITests" */;
+			buildPhases = (
+				3DA6E5CF2169FDE400F85A37 /* Sources */,
+				3DA6E5D02169FDE400F85A37 /* Frameworks */,
+				3DA6E5D12169FDE400F85A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA6E5D52169FDE400F85A37 /* PBXTargetDependency */,
+			);
+			name = "Chinese RadicalsUITests";
+			productName = "Chinese RadicalsUITests";
+			productReference = 3DA6E5D32169FDE400F85A37 /* Chinese RadicalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA6E5AC2169FDE300F85A37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = teatracks;
+				TargetAttributes = {
+					3DA6E5B32169FDE300F85A37 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1200;
+					};
+					3DA6E5C72169FDE400F85A37 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1200;
+						TestTargetID = 3DA6E5B32169FDE300F85A37;
+					};
+					3DA6E5D22169FDE400F85A37 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1200;
+						TestTargetID = 3DA6E5B32169FDE300F85A37;
+					};
+				};
+			};
+			buildConfigurationList = 3DA6E5AF2169FDE300F85A37 /* Build configuration list for PBXProject "Chinese Radicals" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA6E5AB2169FDE300F85A37;
+			productRefGroup = 3DA6E5B52169FDE300F85A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA6E5B32169FDE300F85A37 /* Chinese Radicals */,
+				3DA6E5C72169FDE400F85A37 /* Chinese RadicalsTests */,
+				3DA6E5D22169FDE400F85A37 /* Chinese RadicalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA6E5B22169FDE300F85A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC9D6DE2173955E00C82548 /* IntroViewController.xib in Resources */,
+				3D49DB7B2170DD85002F3685 /* OverViewViewController.xib in Resources */,
+				3D7D27692170AA69002A333D /* OverViewCollectionViewCell.xib in Resources */,
+				3D7D27782170AE43002A333D /* DetailViewController.xib in Resources */,
+				3D7D276021708118002A333D /* Radicals.json in Resources */,
+				3DCAD9702541AF8A00D3983E /* RadicalsNew.json in Resources */,
+				3DA6E5C22169FDE400F85A37 /* LaunchScreen.storyboard in Resources */,
+				3DA6E5BF2169FDE400F85A37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6E5C62169FDE400F85A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6E5D12169FDE400F85A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C20D512148F544ADA6EAA619 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chinese Radicals-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FA18F46D2FEF9F67F8ACEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chinese Radicals/Pods-Chinese Radicals-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6AB1007B631FC0450A472B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Chinese Radicals/Pods-Chinese Radicals-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TagCellLayout/TagCellLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TagCellLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Chinese Radicals/Pods-Chinese Radicals-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA6E5B02169FDE300F85A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7D27672170990E002A333D /* OverViewCollectionViewCell.swift in Sources */,
+				3DA6E5F0216A01F400F85A37 /* OverViewViewController.swift in Sources */,
+				3D7D27722170ADB9002A333D /* DetailWorker.swift in Sources */,
+				3D7D27622170831B002A333D /* DataModels.swift in Sources */,
+				3D7D27712170ADB9002A333D /* DetailPresenter.swift in Sources */,
+				3DC9D6E02173956C00C82548 /* IntroViewController.swift in Sources */,
+				3DA6E5ED216A01F400F85A37 /* OverViewWorker.swift in Sources */,
+				3D7D27762170ADB9002A333D /* DetailInteractor.swift in Sources */,
+				3DA6E5EF216A01F400F85A37 /* OverViewModels.swift in Sources */,
+				3DA6E5B82169FDE300F85A37 /* AppDelegate.swift in Sources */,
+				3DA6E5F1216A01F400F85A37 /* OverViewInteractor.swift in Sources */,
+				3D7D27732170ADB9002A333D /* DetailRouter.swift in Sources */,
+				3D7D27742170ADB9002A333D /* DetailModels.swift in Sources */,
+				3DA6E5EE216A01F400F85A37 /* OverViewRouter.swift in Sources */,
+				3DA6E5EC216A01F400F85A37 /* OverViewPresenter.swift in Sources */,
+				3D7D27752170ADB9002A333D /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6E5C42169FDE400F85A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7D27642170840D002A333D /* OverViewWorkerTest.swift in Sources */,
+				3DA6E5CD2169FDE400F85A37 /* Chinese_RadicalsTests.swift in Sources */,
+				3DCAD9642541ACE600D3983E /* DetailInteractorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA6E5CF2169FDE400F85A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA6E5D82169FDE400F85A37 /* Chinese_RadicalsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DA6E5CA2169FDE400F85A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA6E5B32169FDE300F85A37 /* Chinese Radicals */;
+			targetProxy = 3DA6E5C92169FDE400F85A37 /* PBXContainerItemProxy */;
+		};
+		3DA6E5D52169FDE400F85A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA6E5B32169FDE300F85A37 /* Chinese Radicals */;
+			targetProxy = 3DA6E5D42169FDE400F85A37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DA6E5C02169FDE400F85A37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA6E5C12169FDE400F85A37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA6E5DA2169FDE400F85A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DA6E5DB2169FDE400F85A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA6E5DD2169FDE400F85A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB7E8DA3CF27F247C52FEAC /* Pods-Chinese Radicals.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZP2W5A7CM;
+				INFOPLIST_FILE = "Chinese Radicals/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teatracks.ChineseRadicals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DA6E5DE2169FDE400F85A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B764BAC42EE91F379AB4473F /* Pods-Chinese Radicals.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZP2W5A7CM;
+				INFOPLIST_FILE = "Chinese Radicals/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teatracks.ChineseRadicals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DA6E5E02169FDE400F85A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZP2W5A7CM;
+				INFOPLIST_FILE = "Chinese RadicalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teatracks.Chinese-RadicalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chinese Radicals.app/Chinese Radicals";
+			};
+			name = Debug;
+		};
+		3DA6E5E12169FDE400F85A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZP2W5A7CM;
+				INFOPLIST_FILE = "Chinese RadicalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teatracks.Chinese-RadicalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chinese Radicals.app/Chinese Radicals";
+			};
+			name = Release;
+		};
+		3DA6E5E32169FDE400F85A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZP2W5A7CM;
+				INFOPLIST_FILE = "Chinese RadicalsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teatracks.Chinese-RadicalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chinese Radicals";
+			};
+			name = Debug;
+		};
+		3DA6E5E42169FDE400F85A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZP2W5A7CM;
+				INFOPLIST_FILE = "Chinese RadicalsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teatracks.Chinese-RadicalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chinese Radicals";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA6E5AF2169FDE300F85A37 /* Build configuration list for PBXProject "Chinese Radicals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA6E5DA2169FDE400F85A37 /* Debug */,
+				3DA6E5DB2169FDE400F85A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA6E5DC2169FDE400F85A37 /* Build configuration list for PBXNativeTarget "Chinese Radicals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA6E5DD2169FDE400F85A37 /* Debug */,
+				3DA6E5DE2169FDE400F85A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA6E5DF2169FDE400F85A37 /* Build configuration list for PBXNativeTarget "Chinese RadicalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA6E5E02169FDE400F85A37 /* Debug */,
+				3DA6E5E12169FDE400F85A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA6E5E22169FDE400F85A37 /* Build configuration list for PBXNativeTarget "Chinese RadicalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA6E5E32169FDE400F85A37 /* Debug */,
+				3DA6E5E42169FDE400F85A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA6E5AC2169FDE300F85A37 /* Project object */;
+}
